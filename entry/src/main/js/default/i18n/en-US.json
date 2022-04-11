@@ -1,6 +1,5 @@
 {
   "strings": {
-    "hello": "Hello",
-    "world": "World"
+    "start_count": "Start Step Count"
   }
 }

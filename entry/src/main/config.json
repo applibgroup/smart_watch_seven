@@ -56,6 +56,17 @@
           "autoDesignWidth": true
         }
       }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.ACTIVITY_MOTION",
+        "reason": "To count steps",
+        "usedScene":
+        {
+          "ability": ["com.example.myapplication.MainAbility"],
+          "when": "always"
+        }
+      }
     ]
   }
 }

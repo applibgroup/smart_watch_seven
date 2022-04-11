@@ -1,4 +1,5 @@
-
+import ability_featureAbility from '@ohos.ability.featureAbility'
+import sensor from '@system.sensor'
 import fetch from '@system.fetch';
 export default {
     data: {
@@ -7,7 +8,10 @@ export default {
         weather_description:"",
         notification:"Team Meeting 11am",
         min_progress_calories:'50',
-        min_progress_footSteps:'65'
+        min_progress_footSteps:'65',
+        btnText: "",
+        mySteps: '',
+        sensorPermission: false
     },
     fetchDate : function(){
         const date = new Date();
@@ -87,9 +91,43 @@ export default {
             }
         })
     },
+
     onInit() {
         this.fetchWeather();
         this.fetchNotification();
         this.fetchDate();
+        this.btnText = this.$t('strings.start_count');
     },
+    async startCounting() {
+        if (!this.sensorPermission) {
+          this.sensorPermission = await verifyPermissions()
+        } else {
+          subscribePedometerSensor(this)
+        }
+      }
+    }
+
+    function verifyPermissions() {
+      var context = ability_featureAbility.getContext()
+      let permission = "ohos.permission.ACTIVITY_MOTION"
+      var result = new Promise((resolve, reject) => {
+        context.verifyPermission(permission)
+        .then((data) => {
+          resolve(true)
+        }).catch((error) => {
+          reject(false)
+        })
+      })
+      return result
+    }
+
+    function subscribePedometerSensor(context) {
+      sensor.subscribeStepCounter({
+        success: function(ret) {
+          context.mySteps = ret.steps.toString()
+        },
+        fail: function(data, code) {
+          console.log('Subscription failed. Code: ' + code + '; Data: ' + data)
+        }
+      })
 }

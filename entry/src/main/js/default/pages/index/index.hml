@@ -63,5 +63,12 @@
         <progress class="min_progress_footSteps" type="ring" percent="{{min_progress_footSteps}}" ></progress>
     </div>
     <div id="value_container_footSteps"> <text> {{min_progress_footSteps*100}}</text></div>
-
+    <div class="container">
+        <button class="button" type="capsule" on:click="startCounting">
+            {{ btnText }}
+        </button>
+        <text class="title">
+            {{this.mySteps}}
+        </text>
+    </div>
 </div>
