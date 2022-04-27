@@ -230,10 +230,12 @@
 
 @media screen and (device-type: tv) {
     .container {
-        background-image: url("/common/images/Wallpaper.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
+/*        background-image: url("/common/images/Wallpaper.png");*/
+/*        background-size: cover;*/
+/*        background-repeat: no-repeat;*/
+/*        background-position: center;*/
+        
+        background-color: #242527;
     }
 
     .title {

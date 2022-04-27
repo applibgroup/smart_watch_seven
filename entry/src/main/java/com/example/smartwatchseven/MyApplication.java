@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.smartwatchseven;
 
 import ohos.aafwk.ability.AbilityPackage;
 

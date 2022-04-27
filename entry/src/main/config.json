@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.example.myapplication",
+    "bundleName": "com.example.smartwatchseven",
     "vendor": "example",
     "version": {
       "code": 1000000,
@@ -9,9 +9,9 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.myapplication",
+    "package": "com.example.smartwatchseven",
     "name": ".MyApplication",
-    "mainAbility": "com.example.myapplication.MainAbility",
+    "mainAbility": "com.example.smartwatchseven.MainAbility",
     "deviceType": [
       "phone",
       "tablet",
@@ -37,7 +37,7 @@
           }
         ],
         "visible": true,
-        "name": "com.example.myapplication.MainAbility",
+        "name": "com.example.smartwatchseven.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
         "label": "$string:entry_MainAbility",
@@ -63,7 +63,9 @@
         "reason": "To count steps",
         "usedScene":
         {
-          "ability": ["com.example.myapplication.MainAbility"],
+          "ability": [
+            "com.example.smartwatchseven.MainAbility"
+          ],
           "when": "always"
         }
       }
