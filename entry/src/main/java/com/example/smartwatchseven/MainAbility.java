@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.smartwatchseven;
 
 import ohos.ace.ability.AceAbility;
 import ohos.aafwk.content.Intent;
