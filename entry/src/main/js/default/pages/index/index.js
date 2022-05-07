@@ -1,3 +1,4 @@
+// @ts-nocheck
 import ability_featureAbility from '@ohos.ability.featureAbility'
 import sensor from '@system.sensor'
 import fetch from '@system.fetch';
