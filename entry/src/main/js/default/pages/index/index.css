@@ -118,11 +118,11 @@
     z-index:-2;
 }
 .lens{
-    width:385.85px;
-    height:377.31px;
+    width:230px;
+    height:230px;
     position: absolute;
     z-index:-2;
-    top:-15px;
+    top:5px;
     left:0px;
 }
 
@@ -230,11 +230,11 @@
 
 @media screen and (device-type: tv) {
     .container {
-/*        background-image: url("/common/images/Wallpaper.png");*/
-/*        background-size: cover;*/
-/*        background-repeat: no-repeat;*/
-/*        background-position: center;*/
-        
+    /*        background-image: url("/common/images/Wallpaper.png");*/
+    /*        background-size: cover;*/
+    /*        background-repeat: no-repeat;*/
+    /*        background-position: center;*/
+
         background-color: #242527;
     }
 
@@ -243,10 +243,3 @@
         color: #FFFFFF;
     }
 }
-
-@media screen and (device-type: phone) and (orientation: landscape) {
-    .title {
-        font-size: 60px;
-    }
-}
-
