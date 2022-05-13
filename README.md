@@ -1,4 +1,4 @@
-# smart_watch_seven
+# Smart Watch Seven
 
 
  * Copyright (C) 2022 Application Library Engineering Group
