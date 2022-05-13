@@ -1,0 +1,66 @@
+<div class="clock">
+    <div class="centre">
+        <image src="common/images/antique_midpoint.png"></image>
+    </div>
+    <div class="second">
+        <image src="common/images/seconds_needle.png"></image>
+    </div>
+    <div class="hour">
+        <image src="common/images/Hour_needle.png"></image>
+    </div>
+    <div class="minute">
+        <image src="common/images/Minutes_needle.png"></image>
+    </div>
+    <div class="calendar">
+        <image src="common/images/Schedule_icon.png"></image>
+    </div>
+    <div class="notification">
+        <text style="text-decoration:underline">{{notification}}</text>
+    </div>
+    <div class="weather">
+        <image if="{{weather =='partly_sunny'}}" src="common/images/partly_sunny.png"></image>
+        <image elif="{{weather =='Clouds' }}" src="common/images/cloudy.png"></image>
+        <image elif="{{weather =='windy' }}" src="common/images/windy.png"></image>
+        <image elif="{{weather =='Rain' }}" src="common/images/rainy.png"></image>
+        <image elif="{{weather =='sleeting' }}" src="common/images/sleeting.png"></image>
+        <image elif="{{weather =='sun_n_rain' }}" src="common/images/sun_n_rain.png"></image>
+        <image elif="{{weather =='sun_n_windy' }}" src="common/images/sun_n_windy.png"></image>
+        <image elif="{{weather =='sunny' }}" src="common/images/sunny.png"></image>
+        <image elif="{{weather =='thunderstorm' }}" src="common/images/thunderstorm.png"></image>
+        <image elif="{{weather =='thunderstorm_n_rain' }}" src="common/images/thunderstorm_n_rain.png"></image>
+    <!--        <image else src="common/images/sunny.png"></image>-->
+    </div>
+    <div class="weather_description">
+        <text>{{ weather_description }}</text>
+    </div>
+    <div class="date">
+        <text> {{date_d}} {{date_m}} | {{date_w}}</text>
+    </div>
+    <div class="point">
+        <image class="point1" src="common/images/12,3,6,9_point.png"></image>
+        <image class="point2" src="common/images/12,3,6,9_point.png"></image>
+        <image class="point3" src="common/images/12,3,6,9_point.png"></image>
+        <image class="point4" src="common/images/12,3,6,9_point.png"></image>
+    </div>
+    <div class="background">
+        <image src="common/images/bg.png"></image>
+    </div>
+    <div class="bgblack">
+        <image src="common/images/bg_black.png"></image>
+    </div>
+    <div class="lens">
+        <image src="common/images/lens effect.png"></image>
+    </div>
+
+    <div class="calories_img"><image src="common/images/Calories_icon.png"></image></div>
+    <div class="foots"><image src="common/images/steps_icon.png"></image></div>
+
+    <div class="calories">
+        <progress class="min_progress_calories" type="ring" percent="{{min_progress_calories}}" ></progress>
+    </div>
+    <div id="value_container_calories"><text>{{min_progress_calories * 100}}</text></div>
+    <div class="foot_steps">
+        <progress class="min_progress_footSteps" type="ring" percent="{{min_progress_footSteps}}" ></progress>
+    </div>
+    <div id="value_container_footSteps"> <text> {{(min_progress_footSteps/100)*target_footSteps}}</text></div>
+</div>
