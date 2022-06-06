@@ -64,3 +64,4 @@
     </div>
     <div id="value_container_footSteps"> <text> {{(min_progress_footSteps/100)*target_footSteps}}</text></div>
 </div>
+
