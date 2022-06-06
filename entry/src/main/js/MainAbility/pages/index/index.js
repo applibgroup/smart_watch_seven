@@ -29,7 +29,7 @@ export default {
         notification: "Team Meeting 11am",
         min_progress_calories: '50',
         min_progress_footSteps: '65',
-        target_footSteps:'5000',
+        target_footSteps: '5000',
         Pedometer: "",
         sensorPermission: false
     },
