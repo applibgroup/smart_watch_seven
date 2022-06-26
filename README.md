@@ -21,7 +21,7 @@ The smart watch seven has the following functionalities
 
 
 ## Compatibility:
-Supports OpenHarmony API version 6
+Supports OpenHarmony API version 8
 
 
 ## Open source License

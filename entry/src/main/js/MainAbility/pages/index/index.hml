@@ -28,7 +28,7 @@
         <image elif="{{weather =='sunny' }}" src="common/images/sunny.png"></image>
         <image elif="{{weather =='thunderstorm' }}" src="common/images/thunderstorm.png"></image>
         <image elif="{{weather =='thunderstorm_n_rain' }}" src="common/images/thunderstorm_n_rain.png"></image>
-    <!--        <image else src="common/images/sunny.png"></image>-->
+            <image else src="common/images/sunny.png"></image>
     </div>
     <div class="weather_description">
         <text>{{ weather_description }}</text>

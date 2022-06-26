@@ -112,7 +112,7 @@
 .notification {
     font-size: 6.5px;
     font-family: poppins-regular;
-    colour: white;
+    color: white;
     height: 11px;
     width: 86px;
     top: 180px;
@@ -133,7 +133,7 @@
 .weather_description {
     font-size: 6.5px;
     font-family: poppins-regular;
-    colour: white;
+    color: white;
     width: 23px;
     height: 10px;
     top: 25.5px;
@@ -145,7 +145,7 @@
     position: absolute;
     font-size: 6.5px;
     font-family: poppins-regular;
-    colour: white;
+    color: white;
     width: 57px;
     height: 8px;
     top: 40px;

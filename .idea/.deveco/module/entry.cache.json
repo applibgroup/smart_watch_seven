@@ -1,0 +1,14 @@
+{
+	"BuildOptions":{
+		"SELECT_BUILD_TARGET":"default",
+		"BUILD_PATH":{
+			"OUTPUT_PATH":"D:\\Desktop\\git\\Smart_watch_seven\\smart_watch_seven-1\\entry\\build\\default\\outputs\\default",
+			"RES_PATH":"D:\\Desktop\\git\\Smart_watch_seven\\smart_watch_seven-1\\entry\\build\\default\\intermediates\\res\\default",
+			"ETS_SUPER_VISUAL_PATH":"D:\\Desktop\\git\\Smart_watch_seven\\smart_watch_seven-1\\entry\\build\\default\\cache\\default\\CompileETS",
+			"JS_ASSETS_PATH":"D:\\Desktop\\git\\Smart_watch_seven\\smart_watch_seven-1\\entry\\build\\default\\intermediates\\assets\\default",
+			"RES_PROFILE_PATH":"D:\\Desktop\\git\\Smart_watch_seven\\smart_watch_seven-1\\entry\\build\\default\\intermediates\\res\\default\\resources\\base\\profile",
+			"WORKER_LOADER":"D:\\Desktop\\git\\Smart_watch_seven\\smart_watch_seven-1\\entry\\build\\default\\intermediates\\loader\\default\\loader.json",
+			"MANIFEST_JSON":"D:\\Desktop\\git\\Smart_watch_seven\\smart_watch_seven-1\\entry\\build\\default\\intermediates\\manifest\\default"
+		}
+	}
+}
